@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="GreenPlum Detection Suit">
+	<listeners>
+		<listener class-name="com.dataguise.test.dataprovider.TestngListener"/>
+	</listeners>
+	<parameter name="TestCasePath" value="TestGreenPlumDetection.xlsx"/>
+	<test name="Before Test">
+		<classes>
+			<class name="com.dataguise.test.util.BeforeTestDependency"/>
+		</classes>
+	</test>
+	<test name="Detection Tests">
+		<classes>
+			<class name="com.dataguise.test.detection.testcase.ExecuteTask2"/>
+		</classes>
+	</test> >
+</suite>
+
+

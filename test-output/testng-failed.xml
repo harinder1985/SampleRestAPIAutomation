@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Files Detection Suit]">
+  <parameter name="TestCasePath" value="FILE_New_Expressions.xlsx"/>
+  <listeners>
+    <listener class-name="com.dataguise.test.dataprovider.TestngListener"/>
+  </listeners>
+  <test thread-count="5" name="Files Detection Tests(failed)">
+    <classes>
+      <class name="com.dataguise.test.hdfs.testcase.ExecuteHDFSTasks">
+        <methods>
+          <include name="CreateDetectionTask"/>
+          <include name="endTest"/>
+          <include name="HDFSPrequsite" invocation-numbers="0"/>
+          <include name="afterMethod"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.dataguise.test.hdfs.testcase.ExecuteHDFSTasks -->
+    </classes>
+  </test> <!-- Files Detection Tests(failed) -->
+</suite> <!-- Failed suite [Files Detection Suit] -->

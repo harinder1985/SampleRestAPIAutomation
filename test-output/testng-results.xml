@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SQL Server AZURE Masking Suit" duration-ms="5555220" started-at="2021-05-07T20:57:23 IST" finished-at="2021-05-07T22:29:59 IST">
+    <groups>
+    </groups>
+    <test name="Before Test" duration-ms="3256" started-at="2021-05-07T20:57:23 IST" finished-at="2021-05-07T20:57:27 IST">
+      <class name="com.dataguise.test.util.BeforeTestDependency">
+        <test-method status="PASS" signature="beforeTestTasks(java.lang.String)[pri:0, instance:com.dataguise.test.util.BeforeTestDependency@59e5ddf]" name="beforeTestTasks" is-config="true" duration-ms="3173" started-at="2021-05-07T20:57:23 IST" finished-at="2021-05-07T20:57:27 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SqlServer_Azure_masker.xlsx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestTasks -->
+      </class> <!-- com.dataguise.test.util.BeforeTestDependency -->
+    </test> <!-- Before Test -->
+    <test name="Masking Tests" duration-ms="5551945" started-at="2021-05-07T20:57:27 IST" finished-at="2021-05-07T22:29:59 IST">
+      <class name="com.dataguise.test.masking.testcase.ExecuteMaskingTask">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.dataguise.test.masking.testcase.ExecuteMaskingTask@f2ff811]" name="beforeClass" is-config="true" duration-ms="94" started-at="2021-05-07T20:57:27 IST" finished-at="2021-05-07T20:57:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="CreateMaskingConnection([Lcom.dataguise.test.dataprovider.TestCaseData;)[pri:0, instance:com.dataguise.test.masking.testcase.ExecuteMaskingTask@f2ff811]" name="CreateMaskingConnection" duration-ms="5670" started-at="2021-05-07T20:57:30 IST" data-provider="DataProvider" finished-at="2021-05-07T20:57:35 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Lcom.dataguise.test.dataprovider.TestCaseData;@7d78f3d5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateMaskingConnection -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.dataguise.test.masking.testcase.ExecuteMaskingTask@f2ff811]" name="afterMethod" is-config="true" duration-ms="2" started-at="2021-05-07T20:57:35 IST" finished-at="2021-05-07T20:57:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="CreateMaskingConnection([Lcom.dataguise.test.dataprovider.TestCaseData;)[pri:0, instance:com.dataguise.test.masking.testcase.ExecuteMaskingTask@f2ff811]" name="CreateMaskingConnection" duration-ms="17" started-at="2021-05-07T20:57:35 IST" data-provider="DataProvider" finished-at="2021-05-07T20:57:35 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Lcom.dataguise.test.dataprovider.TestCaseData;@376c7d7d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateMaskingConnection -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.dataguise.test.masking.testcase.ExecuteMaskingTask@f2ff811]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-05-07T20:57:35 IST" finished-at="2021-05-07T20:57:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="CreateMaskingTask([Lcom.dataguise.test.dataprovider.TestCaseData;)[pri:0, instance:com.dataguise.test.masking.testcase.ExecuteMaskingTask@f2ff811]" name="CreateMaskingTask" duration-ms="1" started-at="2021-05-07T20:57:38 IST" data-provider="DataProvider" finished-at="2021-05-07T20:57:38 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Lcom.dataguise.test.dataprovider.TestCaseData;@235d659c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateMaskingTask -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.dataguise.test.masking.testcase.ExecuteMaskingTask@f2ff811]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-05-07T20:57:38 IST" finished-at="2021-05-07T20:57:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="CreateMaskingTask([Lcom.dataguise.test.dataprovider.TestCaseData;)[pri:0, instance:com.dataguise.test.masking.testcase.ExecuteMaskingTask@f2ff811]" name="CreateMaskingTask" duration-ms="5540581" started-at="2021-05-07T20:57:38 IST" data-provider="DataProvider" finished-at="2021-05-07T22:29:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Lcom.dataguise.test.dataprovider.TestCaseData;@7095b688]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateMaskingTask -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.dataguise.test.masking.testcase.ExecuteMaskingTask@f2ff811]" name="afterMethod" is-config="true" duration-ms="5" started-at="2021-05-07T22:29:58 IST" finished-at="2021-05-07T22:29:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.dataguise.test.masking.testcase.ExecuteMaskingTask@f2ff811]" name="endTest" is-config="true" duration-ms="426" started-at="2021-05-07T22:29:58 IST" finished-at="2021-05-07T22:29:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.dataguise.test.masking.testcase.ExecuteMaskingTask -->
+    </test> <!-- Masking Tests -->
+  </suite> <!-- SQL Server AZURE Masking Suit -->
+</testng-results>
